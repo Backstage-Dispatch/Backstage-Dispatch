@@ -56,7 +56,7 @@ const initialCalls = [
   },
 ];
 
-export default function DispatchStagehands() {
+export default function App() {
   const [calls, setCalls] = useState(initialCalls);
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [profile, setProfile] = useState({
@@ -262,3 +262,5 @@ export default function DispatchStagehands() {
     </div>
   );
 }
+
+  
